@@ -1,10 +1,2 @@
-a=int(input())
-b=int(input())
-c=int(input())
-if (a>b and a>c):
-	large=a
-elif (b>a and b>c):
-	large=b
-else:
-	large=c
-print(large)
+a=list(map(int,input().strip().split()))[:3]
+print(max(a))
