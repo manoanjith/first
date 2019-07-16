@@ -6,5 +6,5 @@ while n1>0:
   n1=n1/10
 if rev==n2:
   print('yes')
-els
+else:
   print('no')
