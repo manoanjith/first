@@ -1,8 +1,8 @@
-stin=input()
-count=0
-for i in stin:
+st=input()
+co=0
+for i in st:
 	if (i.isdigit() or i.isalpha() or i==' '):
-		cont=count
+		co=co
 	else:
-		count+=1
-print(count)
+		co+=1
+print(co)
